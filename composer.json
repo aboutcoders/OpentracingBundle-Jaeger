@@ -34,7 +34,7 @@
   "require": {
     "php": "^7.3|^8.0",
     "ext-json": "*",
-    "auxmoney/opentracing-bundle-core": "1.0.0",
+    "auxmoney/opentracing-bundle-core": "dev-master",
     "jukylin/jaeger-php": "dev-dev_v3"
   },
   "require-dev": {
