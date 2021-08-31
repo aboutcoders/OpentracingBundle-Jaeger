@@ -13,19 +13,33 @@
   ],
   "type": "symfony-bundle",
   "license": "MIT",
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "auxmoney/opentracing-bundle-core",
+        "version": "1.0.0",
+        "type": "library",
+        "source": {
+          "url": "https://github.com/aboutcoders/OpentracingBundle-core.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    }
+  ],
   "replace": {
     "auxmoney/opentracing-bundle-tracer-implementation": "*"
   },
   "require": {
-    "php": "^7.3.27",
+    "php": "^7.3|^8.0",
     "ext-json": "*",
-    "auxmoney/opentracing-bundle-core": "^0.8",
-    "opentracing/opentracing": "1.0.0-beta5@beta",
-    "jukylin/jaeger-php": "^2.1.3"
+    "auxmoney/opentracing-bundle-core": "1.0.0",
+    "jukylin/jaeger-php": "dev-dev_v3"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master",
-    "phpunit/phpunit": "^7.5",
+    "phpunit/phpunit": "^9.5",
     "phpstan/phpstan": "^0.12",
     "squizlabs/php_codesniffer": "^3.5",
     "phpmd/phpmd": "^2.9",
