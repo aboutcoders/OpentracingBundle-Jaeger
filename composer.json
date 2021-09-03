@@ -15,17 +15,8 @@
   "license": "MIT",
   "repositories": [
     {
-      "type": "package",
-      "package": {
-        "name": "auxmoney/opentracing-bundle-core",
-        "version": "1.0.0",
-        "type": "library",
-        "source": {
-          "url": "https://github.com/aboutcoders/OpentracingBundle-core.git",
-          "type": "git",
-          "reference": "master"
-        }
-      }
+      "type": "vcs",
+      "url": "https://github.com/aboutcoders/OpentracingBundle-core.git"
     }
   ],
   "replace": {
